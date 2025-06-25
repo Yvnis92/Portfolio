@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!--   - favicon  -->
+<link href="images/firebase.png" rel="shortcut icon" type="image/svg+xml"/>
+<title>
+   Portfolio Website
+  </title>
+<!-- swiper css --->
+<link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- box icons -->
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+<!-- custom css -->
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js">
+</script>
+<style>
+/* Correction : agrandir les titres dans le carrousel */
+.profession h3 {
+    font-size: 2rem !important;
+    font-weight: bold;
+    color: #000;
+    text-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tech-icon {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+}
+.icon-list {
+    text-align: center;
+    margin-bottom: 15px;
+}
+</style></head>
+<body>
+<!--========================== header design =======================-->
+<header class="header">
+<a class="logo" href="#">
+    Portfolio.
+   </a>
+<nav class="navbar">
+<a class="active" href="#home">
+     Accueil
+    </a>
+<a href="#about">
+     À propos
+    </a>
+<a href="#services">
+     Compétences
+    </a>
+<a href="#portfolio">
+     Projets
+    </a>
+<a href="#contact">
+     Contact
+    </a>
+</nav>
+<div class="bx bx-moon" id="darkMode-icon">
+</div>
+<div class="bx bx-menu" id="menu-icon">
+</div>
+</header>
+<!--================================= home section design ========================== -->
+<!-- =========================== HOME ================================ -->
+<section class="home" id="home">
+<div class="home-content">
+<h3>
+     Bonjour, je suis
+    </h3>
+<h1>
+     Yanis Rahmani
+    </h1>
+<p style="max-width: 1200px; text-align: justify; margin-bottom: 1.5rem;">
+     Depuis tout petit, je suis passionné par l’informatique. J’ai toujours été intrigué par ce qui se cache derrière les écrans, par la manière dont une machine peut exécuter des actions précises à partir de simples lignes de code. Très jeune, j’ai su que c’était dans cet univers que je voulais évoluer.
+    </p>
+<p style="max-width: 1200px; text-align: justify; margin-bottom: 1.5rem;">
+     Actuellement en deuxième année de BUT Informatique à l’université Sorbonne Paris Nord, je développe chaque jour mes compétences à travers des projets concrets. Que ce soit en développement web, en base de données ou en administration système, j’aime comprendre comment les choses fonctionnent, résoudre des problèmes réels et créer des solutions utiles.
+    </p>
+<p style="max-width: 1200px; text-align: justify; margin-bottom: 1.5rem;">
+     Ce que je recherche, c’est l’équilibre entre rigueur technique et créativité. J’ai envie de progresser, de construire, et surtout de donner du sens à ce que je fais.
+    </p>
+<!-- ==================== SociAal media ================= -->
+<div class="social-media">
+<a href="https://github.com/Yvnis92">
+<i class="bx bxl-github">
+</i>
+</a>
+<a href="https://www.linkedin.com/in/yanis-rahmani-67052427a/">
+<i class="bx bxl-linkedin">
+</i>
+</a>
+<a href="mailto:yrahmani.pro@gmail.com">
+<i class="bx bx-envelope">
+</i>
+</a>
+</div>
+<a class="btn" href="Cv_Stage_Rahmani_Yanis.pdf">
+     Télécharger le CV
+    </a>
+</div>
+<div class="profession-container">
+<div class="profession-box">
+<div class="circle">
+</div>
+<div class="profession" style="--i:0;">
+<i class="bx bxs-graduation">
+</i>
+<h3>
+       Étudiant en Informatique
+      </h3>
+</div>
+<div class="profession" style="--i:1;">
+<i class="bx bx-bulb">
+</i>
+<h3>
+       Créatif &amp; Curieux
+      </h3>
+</div>
+<div class="profession" style="--i:2;">
+<i class="bx bx-code-alt">
+</i>
+<h3>
+       Futur Développeur
+      </h3>
+</div>
+<div class="profession" style="--i:3;">
+<i class="bx bx-run">
+</i>
+<h3>
+       Passionné de sport
+      </h3>
+</div>
+</div>
+<div class="overlay">
+</div>
+</div>
+<div class="home-img">
+<img alt="" src="images/home.png"/>
+</div>
+</section>
+<!--======================= About section design ================== -->
+<!-- ======================= ABOUT ======================= -->
+<section class="about" id="about">
+<div class="about-img">
+<img alt="" src="images/about.png"/>
+</div>
+<div class="about-content">
+<h2 class="heading">
+     À propos de
+     <span style="color:#7B4FFF;">
+      moi
+     </span>
+</h2>
+<h3>
+     Bonjour, bienvenue sur mon site ! Je suis Yanis, étudiant passionné par l’informatique, curieux d’apprendre et motivé pour résoudre des problèmes grâce au code.
+    </h3>
+<p>
+     J’ai grandi avec cette envie de comprendre comment fonctionnent les choses, de démonter, tester, refaire. C’est ce qui m’a naturellement mené à choisir un bac général avec les spécialités Maths et Physique-Chimie, que j’ai obtenu avec mention Bien au lycée Auguste Renoir à Asnières-sur-Seine.<br><br>
+    Après le bac, le BUT Informatique m’est vite apparu comme une évidence : un parcours concret, progressif, qui m’a permis de toucher à plein de domaines. J’ai découvert la programmation, les bases de données, le développement web, le travail en équipe… Mais ce qui m’a le plus marqué, c’est la dimension sécuritaire de l’informatique. Comprendre comment protéger les données, anticiper les failles, c’est là que j’ai trouvé du sens.<br><br>
+    Je suis quelqu’un de curieux, impliqué, et surtout passionné. J’aime apprendre, creuser les sujets, chercher des solutions. Pendant mon stage, j’ai pu travailler sur des scripts en Laravel et manipuler des données sensibles. Cette expérience m’a conforté dans mon envie d’aller plus loin dans la cybersécurité.<br><br>
+    Aujourd’hui, mon objectif est clair : intégrer une école d’ingénieur spécialisée en cybersécurité, pour approfondir mes compétences et m’investir dans un domaine exigeant, humain, et essentiel dans le monde numérique d’aujourd’hui.
+</p>
+<a class="btn" href="#">
+     En savoir plus
+    </a>
+</div>
+</section>
+<!------ ============= services // Blog section design =================== ----- !>
+
+    <-- ----- ================ BLOG ======================== ------->
+<section class="services" id="services">
+<h2 class="heading">
+    Mes
+    <span>
+     compétences
+    </span>
+</h2>
+<div class="services-container">
+<div class="services-box">
+<h3>Développement Web</h3>
+<div class="icon-list">
+<img alt="JavaScript" class="tech-icon" src="Img/javascript.png"/>
+<img alt="Python" class="tech-icon" src="Img/python.png"/>
+<img alt="MySQL" class="tech-icon" src="Img/php.png"/>
+<img alt="PostgreSQL" class="tech-icon" src="Img/html5.png"/>
+<img alt="Java" class="tech-icon" src="Img/java.png"/>
+</div>
+<a class="btn" href="#">En savoir plus</a>
+</div>
+<div class="services-box">
+<h3>Logiciels</h3>
+<div class="icon-list">
+<img alt="Photoshop" class="tech-icon" src="Img/photoshop.png"/>
+<img alt="Premiere Pro" class="tech-icon" src="Img/premierepro.png"/>
+<img alt="IntelliJ" class="tech-icon" src="Img/intellij.png"/>
+<img alt="VS Code" class="tech-icon" src="Img/vscode.png"/>
+<img alt="LibreOffice" class="tech-icon" src="Img/libreoffice.png"/>
+</div>
+<a class="btn" href="#">En savoir plus</a>
+</div>
+<div class="services-box">
+<h3>Marketing Digital</h3>
+<div class="icon-list">
+<img alt="MySQL" class="tech-icon" src="Img/mysql.png"/>
+<img alt="PostgreSQL" class="tech-icon" src="Img/postgresql.png"/>
+<img alt="Graphql" class="tech-icon" src="Img/graphql.png"/>
+</div>
+<a class="btn" href="#">En savoir plus</a>
+</div>
+</div>
+</section>
+<!-- ======================portfolio section design ====================-->
+<!-- =================== PORTFOLIO ==================== -->
+<section class="portfolio" id="portfolio">
+<h2 class="heading">
+    Mes
+    <span>
+     expériences
+    </span>
+<div class="competences-complementaires" style="display: flex; justify-content: center; gap: 30px; margin-top: 40px;">
+<div class="box" style="border: 2px solid #8A2BE2; border-radius: 15px; padding: 30px; width: 40%; text-align: center; box-shadow: 4px 4px 10px rgba(0,0,0,0.1);">
+<h3>SAE</h3>
+<div>
+<p style="text-align: justify; font-size: 1.4rem; margin-top: 15px;">
+    Au fil de mon BUT Informatique, plusieurs projets (SAÉ) m’ont permis de mettre en pratique mes compétences sur des cas concrets. J’ai d’abord développé une application Java type calculatrice, avec gestion des erreurs et des exceptions, ce qui m’a aidé à consolider mes bases en programmation orientée objet. Ensuite, j’ai conçu un site web sur mesure à partir des besoins d’un client fictif, en l’adaptant selon ses retours. Ce projet m’a beaucoup appris sur l’écoute, la communication et la gestion de projet web.
+</p>
+<p style="text-align: justify; font-size: 1.4rem;">
+    J’ai aussi réalisé une base de données relationnelle en respectant un cahier des charges précis, en travaillant sur la modélisation, les requêtes SQL et les contraintes d’intégrité. Enfin, le projet le plus marquant a été la création d’une application complète pour gérer 17 000 jeux de société à l’Université de Villetaneuse. Organisation des données, interface claire, travail d’équipe : une expérience riche et formatrice, de l’idée jusqu’à la mise en ligne.
+</p>
+</div>
+<a href="https://github.com/yacineiut/SAE_401" download style="display: inline-block; margin-top: 15px; background-color: #8A2BE2; color: white; border: none; padding: 6px 14px; font-size: 1.3rem; border-radius: 8px; text-decoration: none;">En savoir plus</a>
+</div>
+<div class="box" style="border: 2px solid #8A2BE2; border-radius: 15px; padding: 30px; width: 40%; text-align: center; box-shadow: 4px 4px 10px rgba(0,0,0,0.1);">
+<h3>Stage</h3>
+<div>
+<p style="text-align: justify; font-size: 1.4rem; margin-top: 15px;">
+  J’ai eu la chance de faire mon stage chez UpCoop, une entreprise où l’humain compte autant que la technique. Dès les premiers jours, j’ai été accueilli comme un vrai membre de l’équipe. J’ai pu développer des scripts en Laravel pour automatiser la gestion des comptes utilisateurs et nettoyer des données sensibles. Travailler sur des sujets concrets, avec de vraies responsabilités, m’a énormément appris.
+</p>
+<p style="text-align: justify; font-size: 1.4rem;">
+  Mais au-delà du code, c’est la confiance qu’on m’a accordée qui m’a marqué. J’ai compris l’importance de la rigueur, de la fiabilité, surtout quand il s’agit de données personnelles. C’est là que j’ai pris conscience de mon attrait pour la cybersécurité. Protéger, prévenir, sécuriser : ça m’a parlé tout de suite. Ce stage m’a non seulement fait progresser techniquement, mais il a surtout confirmé ce vers quoi je voulais vraiment aller.
+</p>
+</div>
+<a href="Rapport_de_stage_Rahmani_Yanis_BUT2_Dyomède.pdf" class="btn rapport-btn" download style="display: inline-block; margin-top: 15px; background-color: #8A2BE2; color: white; border: none; padding: 6px 14px; font-size: 1.3rem; border-radius: 8px; text-decoration: none;">Télécharger le rapport</a>
+</div>
+</div>
+</h2>
+<div class="portfolio-container">
+<div class="portfolio-box">
+<img alt="" src="images/Age Calculator.png"/>
+<div class="portfolio-layer">
+<h4>
+       Age Calculator
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="Age.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+<div class="portfolio-box">
+<img alt="" src="images/Quiz.png"/>
+<div class="portfolio-layer">
+<h4>
+       Quiz Exam
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="Quiz.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+<div class="portfolio-box">
+<img alt="" src="images/login page.png"/>
+<div class="portfolio-layer">
+<h4>
+       Animation logo
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="Animationlogin.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+<div class="portfolio-box">
+<img alt="" src="images/Weather.png"/>
+<div class="portfolio-layer">
+<h4>
+       Weather App
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="Weather.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+<div class="portfolio-box">
+<img alt="" src="images/hacking page.png"/>
+<div class="portfolio-layer">
+<h4>
+       Hacking Sign Up
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="H4R.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+<div class="portfolio-box">
+<img alt="" src="images/Mountain.png"/>
+<div class="portfolio-layer">
+<h4>
+       Mountain Web
+      </h4>
+<p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.
+      </p>
+<a href="Mountain.html">
+<i class="bx bx-link-external">
+</i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- =========================== PORTFOLIO 02 =========================== -->
+<!-- ================ PORTFOLIO 02 ============= -->
+
+
+<!-- =========================== PROJET JEU MODIFIÉ =========================== -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Projets <span>Perso</span></h2>
+    <div class="projects-container" style="display: flex; justify-content: center; flex-wrap: wrap; margin: 30px auto; gap: 40px; max-width: 1200px;">
+        <a href="Moster.html" class="project-box" style="width: 400px; border: 2px solid #eee; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+            <img src="Img/jeux1.png" alt="Projet Jeu 1" style="width: 100%; height: auto; display: block;">
+        </a>
+        <a href="Animationlogin.html" class="project-box" style="width: 400px; border: 2px solid #eee; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+            <img src="Img/jeux2.png" alt="Projet Jeu 2" style="width: 100%; height: auto; display: block;">
+        </a>
+    </div>
+</section>
+
+<!--=================== contact section design ==============-->
+<!-- ============= CONTACT =========== -->
+<section class="contact" id="contact">
+<h2 class="heading" style = "text-align: center;">
+    Contactez
+    <span style="color:#7B4FFF;">
+     moi
+    </span>
+</h2>
+<form action="#">
+<div class="input-box">
+<input placeholder="Nom complet" type="text"/>
+<input placeholder="Adresse e-mail" type="email"/>
+</div>
+<div class="input-box">
+<input placeholder="Numéro de téléphone" type="number"/>
+<input placeholder="Sujet du message" type="text"/>
+</div>
+<textarea cols="30" id="" name="" placeholder="Votre message" rows="10"></textarea>
+<input class="btn" type="submit" value="Envoyer le message"/>
+</form>
+</section>
+<!---- ============================ Footer ========================= --->
+<!-- ========================== Footer ======================== -->
+<footer id="footer">
+<div class="container">
+<h3>
+     Yanis Rahmani
+    </h3>
+<div class="social-media">
+<a href="https://github.com/Yvnis92">
+<i class="bx bxl-github">
+</i>
+</a>
+<a href="https://www.linkedin.com/in/yanis-rahmani-67052427a/">
+<i class="bx bxl-linkedin">
+</i>
+</a>
+<a href="mailto:yrahmani.pro@gmail.com">
+<i class="bx bx-envelope">
+</i>
+</a>
+</div>
+</div>
+<div class="credits">
+</div>
+</footer>
+<!-- End Footer -->
+<footer class="footer">
+<div class="footer-text">
+<p>
+     © 2025-2026 | Tous droits réservés.
+    </p>
+</div>
+<div class="footer-iconTop">
+<a href="#home">
+<i class="bx bx-up-arrow-alt">
+</i>
+</a>
+</div>
+</footer>
+<!-- custom js -->
+<script src="js/script.js">
+</script>
+</body>
+</html>
